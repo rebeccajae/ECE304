@@ -63,7 +63,9 @@ int main() {
         out_stream << students[i].id << "\t\t" << students[i].score << "\t\t" << students[i].grade << std::endl;
     }
     std::cout << "Mean = " << mean << std::endl;
+    out_stream << "Mean = " << mean << std::endl;
     std::cout << "Std. Dev. = " << sigma << std::endl;
+    out_stream << "Std. Dev. = " << sigma << std::endl;
     out_stream.close();
     return 0;
 }
