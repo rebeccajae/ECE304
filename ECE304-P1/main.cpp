@@ -8,6 +8,7 @@ struct student{
     int score;
     char grade;
 };
+
 int main() {
     srand(time(0));
     std::cout << "Enter Number of Students" << std::endl;
